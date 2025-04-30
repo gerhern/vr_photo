@@ -18,7 +18,7 @@
                     </p>
                     <div class="flex space-x-4">
                         <a href="#" class="bg-accent hover:bg-[#90E0EF] text-white px-6 py-3 rounded-md font-medium">
-                            Comenzar Gratis
+                            Comenzar Ahora
                         </a>
                         <a href="#features" class="border border-white text-white px-6 py-3 rounded-md font-medium hover:bg-white hover:text-primary">
                             Conocer Más

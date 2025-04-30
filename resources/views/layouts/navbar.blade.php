@@ -5,7 +5,7 @@
             <div class="relative flex items-center justify-between h-16">
                 <!-- Logo -->
                 <div class="flex-shrink-0">
-                    <div class="text-xl font-bold">ImageManager</div>
+                    <div class="text-xl font-bold">{{ config('app.name') }}</div>
                 </div>
 
                 <!-- Mobile menu button -->
@@ -50,16 +50,7 @@
                            class="text-gray-300 hover:text-white px-3 py-2">
                             Iniciar Sesión
                         </a>
-                        <a href="#"
-                           class="bg-secondary hover:bg-accent text-white px-4 py-2 rounded-md">
-                            Registrarse
-                        </a>
                     @endauth
-                    <select class="bg-transparent text-white border border-secondary rounded-md px-2 py-1">
-                        <option value="es">ES</option>
-                        <option value="en">EN</option>
-                        <option value="de">DE</option>
-                    </select>
                 </div>
             </div>
 
@@ -79,18 +70,7 @@
                            class="block text-gray-300 hover:text-white px-3 py-2">
                             Iniciar Sesión
                         </a>
-                        <a href="#"
-                           class="block bg-secondary hover:bg-accent text-white px-4 py-2 rounded-md">
-                            Registrarse
-                        </a>
                     @endauth
-                    <div class="px-3 py-2">
-                        <select class="w-full bg-transparent text-white border border-secondary rounded-md px-2 py-1">
-                            <option value="es">ES</option>
-                            <option value="en">EN</option>
-                            <option value="de">DE</option>
-                        </select>
-                    </div>
                 </div>
             </div>
         </div>
