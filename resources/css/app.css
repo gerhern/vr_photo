@@ -14,4 +14,6 @@
     --color-accent: #00B4D8;
     --color-light: #90E0EF;
     --color-background: #CAF0F8;
+    --font-heading: "Inter", "sans-serif";
+    --font-body: "Source Code Pro", "sans-serif";
 }

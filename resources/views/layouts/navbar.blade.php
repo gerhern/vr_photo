@@ -39,14 +39,14 @@
                 <!-- Desktop navigation links -->
                 <div class="hidden md:flex md:items-center md:space-x-4">
                     @auth
-                        <form method="POST" action="#">
+                        <form method="POST" action="{{route('logout')}}">
                             @csrf
                             <button type="submit" class="text-gray-300 hover:text-white px-3 py-2">
                                 Cerrar Sesión
                             </button>
                         </form>
                     @else
-                        <a href="#"
+                        <a href="{{route('login') }}"
                            class="text-gray-300 hover:text-white px-3 py-2">
                             Iniciar Sesión
                         </a>
